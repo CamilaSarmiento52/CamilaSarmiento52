@@ -1,10 +1,13 @@
 # Data Scientist | LLM Pipelines & Predictive Modeling | Python
 
-I design data systems that turn business problems into measurable outcomes. Data Scientist with 8+ years of experience across private and research sectors, I move between classical ML and modern LLM systems, from predictive models to document extraction pipelines.
+I build AI systems that turn business problems into measurable outcomes. Data Scientist and AI Engineer with 8+ years of experience across private and research sectors. I move between modern LLM systems and classical ML: RAG assistants, LLM agents, document extraction pipelines, and predictive models.
 
 ---
 
 ## What I build
+
+**🤖 RAG assistants & LLM agents**
+Chat assistants over your documents that answer with citations you can check. I build the retrieval (hybrid search over Postgres/pgvector), the agent logic (LangGraph), and the evaluation (RAGAS golden sets, Langfuse tracing), so quality is measured and every change can be tested.
 
 **🎯 LLM pipelines & structured extraction**
 Turn unstructured documents (reports, PDFs, clinical notes) into clean, validated, structured data ready for downstream analytics.
@@ -21,6 +24,10 @@ Full pipeline ownership from raw data to deployed model — ETL, feature enginee
 ---
 
 ## Results
+
+📌 Built a RAG assistant for contract clause research over 40 SEC material contracts: LangGraph agent, hybrid pgvector + full-text retrieval, and a code-level validation step that checks every citation against the retrieved text before the answer is shown to the user. Evaluated with RAGAS on a golden set of 40 hand-verified cases: 0 fabricated citations, 0.97 faithfulness on single-document questions. Deployed on Cloud Run with Langfuse tracing on every turn.
+
+📌 Built an agentic receipt-capture and expense-splitting system: a Telegram bot sends the receipt photo to a vision model, extracts the line items, asks the user to confirm each one, and writes the result to Supabase, Google Sheets, and Gmail. 
 
 📌 Built a computational pathology pipeline predicting treatment response from H&E whole slide images using vision foundation models — AUC 0.788 on an 18-patient cohort, establishing proof of concept for a larger prospective study.
 

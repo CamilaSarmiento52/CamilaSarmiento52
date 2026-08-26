@@ -1,4 +1,4 @@
-# Data Scientist | LLM Pipelines & Predictive Modeling | Python
+# AI/ML Engineer | RAG Systems, LLM Agents & Predictive Modeling
 
 I build AI systems that turn business problems into measurable outcomes. Data Scientist and AI Engineer with 8+ years of experience across private and research sectors. I move between modern LLM systems and classical ML: RAG assistants, LLM agents, document extraction pipelines, and predictive models.
 
